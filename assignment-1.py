@@ -50,9 +50,11 @@ profile_birth_year = int(input("What year were you born? "))
 
 profile_age = 2026 - profile_birth_year
 
-print("\n--- PROFILE CARD ---")
+print("\n= = = = = PROFILE CARD = = = = =")
 print(f"Name: {profile_name}")
+print(f"____________________")
 print(f"Hometown: {hometown}")
 print(f"Hobby: {favorite_hobby}")
 print(f"Fun Fact: {fun_fact}")
 print(f"Age: {profile_age}")
+print(f"\n= = = = = = = = = = = = = = = = =")
